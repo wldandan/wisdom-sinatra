@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
 
   <title>Carousel Template for Bootstrap</title>
 
@@ -31,7 +31,7 @@
 <div class="navbar-wrapper">
   <div class="container">
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-brand navbar-right" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,25 +40,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand actives" href="#">Wisdom威斯特国际教育</a>
+          <a class="navbar-brand actives" href="#"><img src="/img/logo.png" width="150px"></img></a><p>威斯特国际教育</p>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">网站首页</a></li>
+            <li><a href="#about">最新资讯</a></li>
+            <li><a href="#about">课程介绍</a></li>
             <li><a href="#about">团队介绍</a></li>
+            <li><a href="#stories">成功案例</a></li>
             <li><a href="#contact">联系我们</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+
+
+            <!--<li class="dropdown">-->
+              <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>-->
+              <!--<ul class="dropdown-menu">-->
+                <!--<li><a href="#">Action</a></li>-->
+                <!--<li><a href="#">Another action</a></li>-->
+                <!--<li><a href="#">Something else here</a></li>-->
+                <!--<li class="divider"></li>-->
+                <!--<li class="dropdown-header">Nav header</li>-->
+                <!--<li><a href="#">Separated link</a></li>-->
+                <!--<li><a href="#">One more separated link</a></li>-->
+              <!--</ul>-->
+            <!--</li>-->
           </ul>
         </div>
       </div>
@@ -79,33 +84,39 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+      <img data-src="holder.js/900x500/auto/#FF8700:#7a7a7a/text: " alt="">
       <!--<img src="/img/slide2.png" alt="First slide" width="900px">-->
       <div class="container">
         <div class="carousel-caption">
-          <h1>Example headline.</h1>
-          <p>Note: If you're viewing this page via a URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+          <h1>报名即可享受"三免三送"</h1>
+          <p>免费诊断学习状态 / 免费制定学习计划 / 免费制定学习计划</p>
+          <p>送讲义 / 送词汇宝典 / 送分类真题</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
         </div>
       </div>
     </div>
     <div class="item">
-      <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+      <img src="/img/slide2.png" alt="Second slide">
       <div class="container">
+        <!--<img data-src="holder.js/900x500/auto/#666666:#6a6a6a/text: " alt="Second slide">-->
         <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h1>Wisdom开课啦</h1>
+          <p>随报随学 / 免费试听 / 不满意不收费</p>
+          <p>互动五人组 / 超值十人行</p>
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
         </div>
       </div>
     </div>
+
     <div class="item">
-      <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+      <!--<img data-src="holder.js/900x500/auto/#FF8700:#6a6a6a/text: " alt="Second slide">-->
+      <img src="/img/slide4.png" alt="Second slide" class="img-circle">
       <div class="container">
         <div class="carousel-caption">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <h1 class="hightlight">Wisdom特色培训模式</h1>
+          <p>VIP 一对一 / 良师益友三人组</p>
+          <p>互动五人组 / 超值十人行</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -125,17 +136,17 @@
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-lg-4">
-      <h2>Heading</h2>
+      <h2>最新资讯</h2>
       <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <h2>Heading</h2>
+      <h2>成功案例</h2>
       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <h2>Heading</h2>
+      <h2>教学团队</h2>
       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->

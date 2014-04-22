@@ -31,6 +31,17 @@ body {
   padding-left: 15px;
 }
 
+.navbar-inverse {
+    background-color: black;
+}
+
+.navbar-brand {
+    padding: 3px 15px;
+}
+
+.navbar-nav {
+    padding-top: 15px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -47,8 +58,8 @@ body {
 
 }
 
-.carousel-caption h1 {
-
+.carousel-caption h1{
+    font-family: "Brush Script MT", cursive;
 }
 
 /* Declare heights because of positioning of img element */

@@ -34,7 +34,7 @@
       <file leaf-file-name="layout.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="13" selection-start="9314" selection-end="9314" vertical-scroll-proportion="0.78840125" vertical-offset="2542" max-vertical-offset="3180">
+            <state line="201" column="37" selection-start="9202" selection-end="9202" vertical-scroll-proportion="0.7413793" vertical-offset="2542" max-vertical-offset="3180">
               <folding />
             </state>
           </provider>
@@ -452,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="13" selection-start="9314" selection-end="9314" vertical-scroll-proportion="0.78840125" vertical-offset="2542" max-vertical-offset="3180">
+        <state line="201" column="37" selection-start="9202" selection-end="9202" vertical-scroll-proportion="0.7413793" vertical-offset="2542" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>

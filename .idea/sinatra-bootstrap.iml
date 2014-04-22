@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="backports (v3.6.0, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.9.2, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.3, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.3.5, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.5, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra-contrib (v1.4.2, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slim (v2.0.2, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="temple (v0.6.7, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-1.9.3-p545 [spike-sintra]) [gem]" level="application" />
+  </component>
+</module>
+

@@ -38,17 +38,23 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  bottom:40px;
+
+}
+
+.carousel-caption h1 {
+
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #FF8700;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -74,8 +80,9 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: normal;
+.marketing h2,h3 {
+    font-weight: bolder;
+    color: #FF6600;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;

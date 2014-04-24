@@ -7,8 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -47,16 +45,24 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 25px;
+#.carousel {
+  height: 420px;
+  margin-bottom: 10px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom:40px;
-
+  bottom: 20px;
+  padding-top: 0px;
 }
+
+/* Bump up size of carousel content */
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
 
 .carousel-caption h1{
     font-family: "Brush Script MT", cursive;
@@ -64,7 +70,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 420px;
   background-color: #FF8700;
 }
 .carousel-inner > .item > img {
@@ -72,7 +78,18 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 420px;
+}
+
+.carousel .carousel-indicators{
+    bottom: 25px;
+}
+
+#carousel-case, #carousel-case .item {
+    height: 222px;
+    padding: 0 0 0 0;
+    margin: 0 0 15px;
+
 }
 
 /* MARKETING CONTENT
@@ -144,12 +161,6 @@ body {
     border-radius: 4px;
   }
 
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
 
   .featurette-heading {
     font-size: 50px;
@@ -160,4 +171,16 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+#panel-ap {
+    padding: 20px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background-color: #ff8700;
+}
+
+#team{
+    margin-bottom: 18px;
 }

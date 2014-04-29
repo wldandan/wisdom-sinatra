@@ -15,21 +15,29 @@ get '/introduction' do
   erb :introduction
 end
 
-get '/teachers' do
-  @menu="teachers"
-  erb :teachers
+get '/teacher-intro' do
+  @menu="teacher-intro"
+  erb "teacher-intro"
 end
 
-
-
-get '/about' do
-  @menu="about"
-  erb :about
+get '/class-intro' do
+  @menu="class-intro"
+  erb "class-intro"
 end
 
-get '/contact' do
-  @menu="contact"
-  erb :contact
+get '/student-intro' do
+  @menu="student-intro"
+  erb "student-intro"
+end
+
+get '/apply-online' do
+  @menu="apply-online"
+  erb "apply-online"
+end
+
+get '/contact-us' do
+  @menu="contact-us"
+  erb "contact-us"
 end
 
 not_found do

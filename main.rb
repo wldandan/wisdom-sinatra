@@ -32,12 +32,12 @@ end
 
 get '/apply-online' do
   @menu="apply-online"
-  erb "apply-online"
+  erb :applyonline
 end
 
 get '/contact-us' do
   @menu="contact-us"
-  erb "contact-us"
+  erb :contactus
 end
 
 not_found do

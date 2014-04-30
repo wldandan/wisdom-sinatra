@@ -205,3 +205,51 @@ body {
     padding-left: 0px;
     margin-bottom: 0px;
 }
+
+.subline {
+    color: #999;
+}
+
+.manual-help {
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+.manual-help .col-xs-4 {
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+.footer-content {
+    border-top: 1px solid #ccc;
+    padding: 10px 0px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.support-line {
+    font-size: 18px;
+    line-height: 34px;
+}

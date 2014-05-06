@@ -17,12 +17,12 @@ end
 
 get '/teacher-intro' do
   @menu="teacher-intro"
-  erb "teacher-intro"
+  erb :teacherintro
 end
 
 get '/class-intro' do
   @menu="class-intro"
-  erb "class-intro"
+  erb :classintro
 end
 
 get '/student-intro' do

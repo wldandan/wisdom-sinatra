@@ -25,9 +25,9 @@ get '/class-intro' do
   erb :classintro
 end
 
-get '/student-intro' do
-  @menu="student-intro"
-  erb "student-intro"
+get '/case-intro' do
+  @menu="case-intro"
+  erb :caseintro
 end
 
 get '/apply-online' do

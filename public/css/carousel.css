@@ -185,7 +185,7 @@ body {
     margin-bottom: 18px;
 }
 
-#introduction, #classintro{
+#introduction, #classintro, #contactus, #casesintro{
     margin-top: 70px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -196,11 +196,11 @@ body {
     padding: 5px 5px 5px 5px;
 }
 
-#introduction img{
+#introduction img, #contactus img{
     width: 100%;
 }
 
-#introduction .container{
+#introduction .container, #contactus .container{
     width: 100%;
     padding-left: 0px;
     margin-bottom: 0px;
@@ -264,6 +264,6 @@ body {
 }
 
 
-#courses {
+#courses, #cases {
     margin-top: 50px;
 }

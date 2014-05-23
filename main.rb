@@ -10,32 +10,32 @@ get '/' do
 	erb :home
 end
 
-get '/introduction' do
+get '/introduction.html' do
   @menu="introduction"
   erb :introduction
 end
 
-get '/teacher-intro' do
+get '/teacher-intro.html' do
   @menu="teacher-intro"
   erb :teacherintro
 end
 
-get '/class-intro' do
+get '/class-intro.html' do
   @menu="class-intro"
   erb :classintro
 end
 
-get '/case-intro' do
+get '/case-intro.html' do
   @menu="case-intro"
   erb :caseintro
 end
 
-get '/apply-online' do
+get '/apply-online.html' do
   @menu="apply-online"
   erb :applyonline
 end
 
-get '/contact-us' do
+get '/contact-us.html' do
   @menu="contact-us"
   erb :contactus
 end
